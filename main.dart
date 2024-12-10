@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
-import 'flutter.dart';
-import 'flutter_02.dart';
-import 'flutter_03.dart';
+import 'example.dart';
+import 'baitap01.dart';
+import 'baitap02.dart';
+import 'example2.dart';
+
 void main() {
   runApp(const MyApp());
 }
@@ -15,11 +17,11 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: TemperatureConverter(),
+      home: TextButtonExample(),
+      
     );
   }
 }
